@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>First SVG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <style type="text/css">
+        body {
+            font-family: Avenir, sans-serif;
+        }
+        svg {
+            border: 1px solid #bbb;
+        }
+    </style>
+</head>
+<body>
+    <svg width="500" height="300">
+        <line x1="100" y1="100", x2="300" y2="100" stroke="black"></line>
+        <circle cx="300", cy="100" r="3"></circle>
+        <text x="100", y="90">Lollipop 1</text>
+    </svg>
+
+    <svg width="500" height="300">
+        <g transform="translate(100, 100)">
+            <line x2="200" stroke="black"></line>
+            <circle cx="200" r="3"></circle>
+            <text y="-10">Lollipop 1</text>
+        </g>
+    </svg>
+</body>
+</html>

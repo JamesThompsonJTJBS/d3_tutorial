@@ -1,0 +1,4 @@
+node_modules/
+node_modules/.bin/csv2json
+node_modules/.bin/csv2json.cmd
+*.cmd
