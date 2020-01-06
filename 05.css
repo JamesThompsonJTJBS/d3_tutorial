@@ -1,0 +1,18 @@
+svg {
+    border: 1px solid green;
+}
+
+
+g {
+    border: 1px solid green;
+}
+
+.axis .domain {
+    stroke: #bbb;
+}
+
+.axis .tick line {
+    stroke: #bbb;
+    stroke-width: 1;
+    stroke-dasharray: 4, 2;
+}
