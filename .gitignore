@@ -2,3 +2,8 @@ node_modules/
 node_modules/.bin/csv2json
 node_modules/.bin/csv2json.cmd
 *.cmd
+.vs/pluralsight-d3-course/v16/.suo
+.vs/pluralsight-d3-course/v16/.suo
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/VSWorkspaceState.json
